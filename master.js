@@ -2,31 +2,6 @@
 // Numbers divisible by 5 are replaced with "pong"
 // Numbers divisible by 15 are replaced with "pingpong"
 
-
-function pingpong(num){
-
-    var j = 3;
-    var k = 5
-    var jk = 15
-
-    var i = 1;
-    while(i<=num) {
-    if ((i % 3 === 0) && (i % 5 === 0)) {
-      console.log('pingpong');
-    } else if (i % 3 === 0) {
-      console.log('ping')
-    } else if (i % 5 === 0) {
-      console.log('pong');
-    }  else {
-      console.log(i);
-    }
-    i++;
-  }
-}
-
-
-function condensedPong(num){
-
   function pingpong(num){
 
       var ping = 3;
